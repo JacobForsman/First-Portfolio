@@ -1,5 +1,5 @@
 body {
-    background-image: url('../../background/Background.png');
+    background-image: url('../../images/Background.png');
     background-color: #F0F0F0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,6 +76,7 @@ p:hover {
 .carousel {
     margin-bottom: 100px;
     background-color: rgba(0, 0, 0, 0.15);
+    width: 100%;
     padding-top: 25px;
 }
 
@@ -86,6 +87,9 @@ p:hover {
     transition: 0.3s;
 }
 
+.contact {
+    margin-bottom: 200px;
+}
 
 /*MEDIA*/
 
@@ -117,6 +121,14 @@ p:hover {
     }
 
     p {
+        font-size: 20px;
+    }
+
+    @media only screen and (max-width: 415px) {
+    .welcome {
+        font-size: 25px;
+    }
+    h3 {
         font-size: 20px;
     }
 }

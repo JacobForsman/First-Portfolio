@@ -23,7 +23,7 @@
         I'm a web developer <br>
         and this is my portfolio&lt;/h3&gt;</h3>
 
-   
+
 
     <p>&lt;p&gt;These are my latest projects&lt;/p&gt;</p>
 
@@ -37,17 +37,17 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <a href="https://github.com/JacobForsman/Landing-Page" target=_blank>
-                    <img class="d-block w-50" src="landing.png" alt="First slide">
+                    <img class="d-block w-75" src="images/landing.png" alt="First slide">
                 </a>
             </div>
             <div class="carousel-item">
                 <a href="https://github.com/FransEkstrand/FCC---Survey-form" target=_blank>
-                    <img class="d-block w-50" src="survey.png" alt="Second slide">
+                    <img class="d-block w-75" src="images/survey.png" alt="Second slide">
                 </a>
             </div>
             <div class="carousel-item">
                 <a href="https://github.com/JacobForsman/Technical-documentation-page" target=_blank>
-                    <img class="d-block w-50" src="technical_doc.png" alt="Third slide">
+                    <img class="d-block w-75" src="images/technical_doc.png" alt="Third slide">
                 </a>
             </div>
         </div>
@@ -61,22 +61,108 @@
         </a>
     </div>
 
- <!--Contact-->
-    <div class="navbar">
-        <a href="" class="icon col">
-            <ion-icon class="icon col" name="logo-snapchat"></ion-icon>
-        </a>
-        <a href="https://github.com/JacobForsman" target=# class="icon col">
-            <ion-icon class="icon col" name="logo-github"></ion-icon>
-        </a>
-        <a href="" class="icon col">
-            <ion-icon class="icon col" name="logo-instagram"></ion-icon>
-        </a>
-        <a href="" class="icon col">
-            <ion-icon class="icon col" name="mail"></ion-icon>
-        </a>
+    <div class="contact">
+        <h3>&lt;h3&gt;Contact me!&lt;/h3&gt;</h3>
     </div>
-    
+    <!--Contact-->
+    <div class="navbar">
+        <ion-icon class="icon col btn" name="logo-snapchat" data-toggle="modal" data-target="#SnapBox"></ion-icon>
+
+        <ion-icon class="icon col btn" name="logo-github" data-toggle="modal" data-target="#GitBox"></ion-icon>
+
+        <ion-icon class="icon col btn" name="logo-instagram" data-toggle="modal" data-target="#InstaBox"></ion-icon>
+
+        <ion-icon class="icon col btn" name="mail" data-toggle="modal" data-target="#EmailBox">
+        </ion-icon>
+    </div>
+
+    <!--Modals-->
+
+    <div class="modal fade" id="SnapBox" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add me on Snapchat</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    yeet
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Scan my code</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="GitBox" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Check out my GitHub</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <form action="https://github.com/JacobForsman" target="_blank">
+                        <input type="submit" class="btn btn-primary" value="GitHub" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="InstaBox" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Follow me on Instagram</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    @jacke__02
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <form action="https://www.instagram.com/jacke__02/" target="_blank">
+                        <input type="submit" class="btn btn-primary" value="My profile" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="EmailBox" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">E-Mail address</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Message
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Gooo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--Scripts-->
     <script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
