@@ -70,7 +70,22 @@ p:hover {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 2;
 }
+
+.carousel {
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding-top: 25px;
+}
+
+.carousel-inner img {
+    margin: auto;
+    margin-bottom: 100px;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
 
 /*MEDIA*/
 

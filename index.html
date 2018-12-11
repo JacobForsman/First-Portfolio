@@ -23,7 +23,45 @@
         I'm a web developer <br>
         and this is my portfolio&lt;/h3&gt;</h3>
 
-    <!--Contact-->
+   
+
+    <p>&lt;p&gt;These are my latest projects&lt;/p&gt;</p>
+
+    <!--Carousel slide-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://github.com/JacobForsman/Landing-Page" target=_blank>
+                    <img class="d-block w-50" src="landing.png" alt="First slide">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://github.com/FransEkstrand/FCC---Survey-form" target=_blank>
+                    <img class="d-block w-50" src="survey.png" alt="Second slide">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://github.com/JacobForsman/Technical-documentation-page" target=_blank>
+                    <img class="d-block w-50" src="technical_doc.png" alt="Third slide">
+                </a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+ <!--Contact-->
     <div class="navbar">
         <a href="" class="icon col">
             <ion-icon class="icon col" name="logo-snapchat"></ion-icon>
@@ -38,9 +76,7 @@
             <ion-icon class="icon col" name="mail"></ion-icon>
         </a>
     </div>
-
-    <p>&lt;p&gt;These are my latest projects&lt;/p&gt;</p>
-
+    
     <!--Scripts-->
     <script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
