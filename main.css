@@ -8,12 +8,8 @@ body {
 
 h3 {
     margin-top: 200px;
-    display: flex;
-    justify-content: center;
     font-size: 50px;
     text-shadow: -10px 10px 10px rgba(0, 0, 0, 0.15);
-    color: black;
-    text-align: center;
     transition: 0.3s;
 }
 
@@ -23,12 +19,8 @@ h3:hover {
 
 p {
     font-size: 30px;
-    display: flex;
-    justify-content: center;
     text-shadow: -10px 10px 10px rgba(0, 0, 0, 0.15);
-    color: black;
-    text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
     transition: 0.3s;
 }
 
@@ -40,10 +32,6 @@ p:hover {
     margin-top: 50px;
     font-size: 125px;
     text-shadow: -10px 10px 10px rgba(0, 0, 0, 0.15);
-    font-family: arial;
-    display: flex;
-    justify-content: center;
-    color: black;
     transition: 0.3s;
 }
 
@@ -64,12 +52,7 @@ p:hover {
 }
 
 .navbar {
-    display: flex;
-    flex-direction: row;
     background-color: #b000ff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     z-index: 2;
 }
 
@@ -113,8 +96,6 @@ p:hover {
     color: #b000ff;
 }
 
-
-
 /*MEDIA*/
 
 @media only screen and (max-width: 1200px) {
@@ -155,5 +136,9 @@ p:hover {
 
         h3 {
             font-size: 20px;
+        }
+
+        p {
+            font-size: 15px;
         }
     }
